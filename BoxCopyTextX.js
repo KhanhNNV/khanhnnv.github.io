@@ -122,6 +122,16 @@
     const copyBtn = document.getElementById("copierCopyBtn");
     const input = document.getElementById("copierInput");
 
+    const savedText = localStorage.getItem("copierText");
+    if (savedText !== null) {
+        input.value = savedText;
+    }
+
+    input.addEventListener("input", () => {
+        localStorage.setItem("copierText", input.value);
+    });
+
+
     toggleBtn.addEventListener("click", () => {
         box.classList.toggle("collapsed");
         toggleBtn.textContent = box.classList.contains("collapsed") ? "◀" : "▶";
