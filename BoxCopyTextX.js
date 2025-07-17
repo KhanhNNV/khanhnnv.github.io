@@ -3,6 +3,8 @@
 // @namespace    http://tampermonkey.net/
 // @version      1.0
 // @description  Copy text
+// @updateURL    https://khanhnnv.github.io/BoxCopyTextX.js
+// @downloadURL  https://khanhnnv.github.io/BoxCopyTextX.js
 // @author       KhanhNNV
 // @match        *://x.com/*
 // @grant        none
