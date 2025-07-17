@@ -29,9 +29,9 @@
         }
 
         .copier-box.collapsed {
-            width: 35px;
+            width: 50px;
             height: auto;
-            padding: 10px 5px;
+            padding: 5px 5px;
             border-radius: 20px;
             background-color: #ffbf66;
             display: flex;
@@ -65,6 +65,7 @@
             border-radius: 50%;
             margin: 5px 0 0;
             padding-left: 4px;
+            margin-top: -15px;
         }
 
         .toggle-btn {
